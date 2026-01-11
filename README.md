@@ -8,14 +8,16 @@ Transfer learning and feature extraction
 DenseNet architecture
 
 Assignment:
-Part 1: DenseNet-121 feature extraction on CIFAR-10
+1: DenseNet-121 feature extraction on CIFAR-10
+
 Froze all convolutional layers
 Trained custom classifier (1024 → 512 → 10)
 Achieved ~85-90% test accuracy
 Applied data augmentation (flips, crops)
 Used BatchNorm and Dropout for regularization
 
-Part 2: Deep Neural Network (No CNN) on MNIST
+2: Deep Neural Network (No CNN) on MNIST
+
 Built 3-layer fully connected network (784 → 512 → 256 → 128 → 10)
 Achieved ~97-98% test accuracy
 Implemented regularization (Dropout, BatchNorm, data augmentation)
